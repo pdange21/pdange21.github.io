@@ -11,14 +11,6 @@
     <body>
         <div id="container--main">
 
-            <!-- Add the toggle button here -->
-            <div class="theme-switch-wrapper">
-                <label class="theme-switch" for="checkbox">
-                    <input type="checkbox" id="checkbox" />
-                    <div class="slider round"></div>
-                </label>
-            </div>
-
             <section id="wrapper--hero" class="section--page">
                 <img id="profile-pic" src="./assets/images/profile_pic.jpg">
 
@@ -155,17 +147,6 @@
 
        
         </div>
-        <!-- Add the JavaScript code to handle the theme switch -->
-        <script>
-            const themeSwitch = document.querySelector('#checkbox');
-            themeSwitch.addEventListener('change', function(event) {
-                if (event.currentTarget.checked) {
-                    document.documentElement.setAttribute('data-theme', 'dark');
-                } else {
-                    document.documentElement.setAttribute('data-theme', 'light');
-                }
-            });
-        </script>
 
     </body>
 </html>
