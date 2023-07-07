@@ -273,3 +273,10 @@ li{
         padding-left: 0;
     }
 }
+
+#socials--list img {
+    width: 20px;  /* adjust as needed */
+    height: 20px; /* adjust as needed */
+    vertical-align: middle; /* aligns the image with the text */
+    margin-right: 5px; /* adds some space between the image and the text */
+}
