@@ -274,9 +274,9 @@ li{
     }
 }
 
-#socials--list img {
-    width: 20px;  /* adjust as needed */
-    height: 20px; /* adjust as needed */
+#social_link img {
+    width: 1em;  /* adjust as needed */
+    height: 1em; /* adjust as needed */
     vertical-align: middle; /* aligns the image with the text */
     margin-right: 5px; /* adds some space between the image and the text */
 }
