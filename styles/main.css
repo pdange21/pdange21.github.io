@@ -182,7 +182,12 @@ li{
     }
 }
 
-#social_link img {
+.social_links_row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social_link img {
     width: 1em;  /* adjust as needed */
     height: 1em; /* adjust as needed */
     vertical-align: middle; /* aligns the image with the text */
