@@ -216,6 +216,8 @@ li{
     display: inline-block;
     width: 60px;
     height: 34px;
+    margin-left: -25px;
+    margin-right: 5px;
 }
 
 .theme-switch input { 
