@@ -338,3 +338,57 @@ input:checked + .slider:before {
     margin: 20px 0; /* Adjust the margin as needed */
     border: none;
 }
+
+/* Main menu link default state */
+.main-menu-link {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--mainLinkColor);
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Main menu link default state */
+.main-menu-link {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1.5em; /* Increase the font size to make it more evident */
+    text-transform: uppercase;
+    font-weight: 800; /* Set the font-weight to bold */
+    color: var(--mainLinkColor);
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Main menu link hover state */
+.main-menu-link:hover, 
+.main-menu-link:focus {
+    text-decoration: none;
+}
+
+/* Dark theme adjustments */
+[data-theme="dark"] .main-menu-link {
+    color: var(--mainLinkColor-dark);
+}
+
+.course-link {
+    color: inherit; /* This will inherit the color from the parent element */
+    text-decoration: none; /* This will remove the underline */
+}
+
+.course-link:hover {
+    color: inherit;
+    text-decoration: underline; /* This will underline the text when you hover over it */
+}
+
+.bold-separator {
+    border: 0;             /* Remove the default border */
+    height: 2px;           /* Adjust the height to make the line thicker */
+    background-color: #333;/* Set the color of the line */
+    margin: 20px 0;        /* Add some vertical spacing before and after the line */
+}
