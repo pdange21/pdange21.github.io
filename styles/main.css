@@ -442,3 +442,7 @@ input:checked + .slider:before {
     }
 }
 
+#skill-title {
+    font-weight: bold;
+    color: #0da2b8;  
+}
