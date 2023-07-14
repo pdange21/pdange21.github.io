@@ -281,3 +281,60 @@ input:checked + .slider:before {
     justify-content: space-between;
     width: 60px;
 }
+
+.university-logo {
+    width: 60px;
+    height: 75px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.education-item {
+    display: flex;
+    align-items: start;
+    margin-bottom: 20px;
+}
+
+.education-content {
+    flex-grow: 1;
+}
+
+.education-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.university {
+    font-weight: bold;
+    color: #0da2b8;  
+}
+
+.degree {
+    font-style: italic; 
+    font-weight: bold;
+}
+
+.coursework {
+    margin-top: 10px;
+}
+
+.coursework p {
+    font-weight: bold;
+    color: var(--mainTextColor);
+}
+
+.coursework ul {
+    list-style-type: square;
+}
+
+.coursework ul li {
+    margin: 5px 0;
+    color: var(--mainLinkColor);
+}
+
+.section-separator {
+    height: 1px;
+    background-color: #888; /* Replace with your desired separator color */
+    margin: 20px 0; /* Adjust the margin as needed */
+    border: none;
+}
