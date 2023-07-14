@@ -206,7 +206,7 @@ li{
 .theme-switch-wrapper {
     position: absolute;
     right: 0;
-    top: 40px;
+    top: 2em;  
     display: flex;
     align-items: center;
 }
@@ -216,8 +216,6 @@ li{
     display: inline-block;
     width: 60px;
     height: 34px;
-    margin-left: -25px;
-    margin-right: 5px;
 }
 
 .theme-switch input { 
