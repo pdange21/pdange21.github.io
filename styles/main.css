@@ -152,18 +152,21 @@ li{
 }
 
 .card--work-history{
+    background-color: var(--mainBgColor);
+    color: var(--mainTextColor);
+    border-radius: 6px;
+    padding: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin-bottom: 20px;
     border-left: 1px solid var(--mainBorderColor);
-    margin-top: 3em;
-    margin-bottom: 3em;
-    padding-left: 2em;
-    display: grid;
-    grid-gap: 1em;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 1em;
 }
 
 .left-header {
@@ -437,6 +440,8 @@ input:checked + .slider:before {
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
     text-align: left;
     margin-bottom: 20px;
+    border-top: 1px solid var(--mainBorderColor);
+    border-left: 1px solid var(--mainBorderColor);
 }
 
 .card--techstack strong {
