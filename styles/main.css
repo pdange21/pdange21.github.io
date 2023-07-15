@@ -156,6 +156,24 @@ li{
     margin-top: 3em;
     margin-bottom: 3em;
     padding-left: 2em;
+    display: grid;
+    grid-gap: 1em;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-header {
+    display: flex;
+    align-items: center;
+}
+.company-logo {
+    width: 50px; /* Adjust the width as per your logo size */
+    height: 50px;
+    margin-right: 10px; /* Added spacing between logo and text */
 }
 
 .line-break{
@@ -446,3 +464,4 @@ input:checked + .slider:before {
     font-weight: bold;
     color: #0da2b8;  
 }
+
