@@ -508,6 +508,10 @@ input:checked + .slider:before {
     margin-bottom: 15px;
 }
 
+.project-links{
+    display: flex;
+    gap: 20px;
+}
 .project-link {
     color: var(--mainLinkColor);
     font-weight: 500;
