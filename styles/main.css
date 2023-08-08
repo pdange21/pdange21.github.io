@@ -470,3 +470,54 @@ input:checked + .slider:before {
     color: #0da2b8;  
 }
 
+/* Project css */
+.project-card {
+    background-color: var(--mainBgColor);
+    border: 1px solid var(--mainBorderColor);
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-image {
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.project-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: var(--mainTextColor);
+    text-align: center;
+}
+
+.project-description {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.project-link {
+    color: var(--mainLinkColor);
+    font-weight: 500;
+    border: 1px solid var(--mainLinkColor);
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.project-link:hover {
+    background-color: var(--mainLinkColor);
+    color: var(--mainBgColor);
+}
